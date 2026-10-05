@@ -1,0 +1,17 @@
+luku = input("Anna luku: ")
+if luku != "":
+    luku = int(luku)
+    pienin = luku
+    suurin = luku
+
+luku = input("Anna luku: ")
+
+while luku !="":
+    luku = int(luku)
+    if luku < pienin:
+     pienin = luku
+    if luku > suurin:
+     suurin = luku
+    luku = input("Anna luku: ")
+
+print(pienin, suurin)
